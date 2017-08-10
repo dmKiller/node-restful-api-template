@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="976b8ee4-791a-4345-98b2-e967084ef5cb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/songt.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/node-restful-api-template.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+    <list default="true" id="976b8ee4-791a-4345-98b2-e967084ef5cb" name="Default" comment="删除idea">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
     <ignored path="node-restful-api-template.iws" />
@@ -192,7 +186,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1502351916228</updated>
-      <workItem from="1502351918066" duration="273000" />
+      <workItem from="1502351918066" duration="325000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1502352049252</created>
@@ -201,11 +195,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502352049253</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="删除idea">
+      <created>1502352198028</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1502352198028</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="273000" />
+    <option name="totallyTimeSpent" value="325000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="18" y="23" width="1280" height="731" extended-state="0" />
@@ -243,7 +244,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="up" />
-    <option name="LAST_COMMIT_MESSAGE" value="up" />
+    <MESSAGE value="删除idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除idea" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
