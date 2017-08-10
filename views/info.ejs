@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <%include header.ejs%>
+  <style>
+    h1{
+      background: #353545;
+      margin: 0;
+      color: #54be85;
+      padding:15px;
+      text-align: center;
+      font-weight: normal;
+      font-size: 26px;
+    }
+    .session{
+      padding:15px;
+    }
+    h2{
+      margin-bottom: 20px;
+      font-size: 24px;
+    }
+    p{
+      color: #666;
+    }
+  </style>
+  <body>
+
+  <h1>相关技术说明</h1>
+
+  <div class="session" style="background: #3e3d4a;">
+    <div class="container text-center">
+      <img src="/images/info-1.png" width="80%" alt="">
+    </div>
+  </div>
+  <div class="container">
+
+    <div class="session">
+      <h2>解决主要技术问题</h2>
+      <p>1、路由访问地址问题（curd）</p>
+      <p>2、部署问题（nginx、node、pm2）</p>
+      <p>3、中间件问题（middleware）</p>
+      <p>4、mock数据问题（mockjs） <a target="_blank" href="api/user/2">测试</a></p>
+      <p>5、接口视图问题（swagger UI） ->可优化为注解且自动生成json，并可以自动mock数据 [swagger-node]</p>
+    </div>
+
+    <div class="session">
+      <h2>本地启动</h2>
+      <p>1、安装node环境</p>
+      <p>2、进入项目根目录 输入# npm install  安装依赖包</p>
+      <p>3、node ./bin/www 启动项目</p>
+      <p>--------------或者---------------</p>
+      <p>安装supervisor CLI： npm install -g supervisor</p>
+      <p>安装完后本地启动热更新CLI： supervisor bin/www</p>
+    </div>
+
+    <div class="session">
+      <h2>项目目录结构</h2>
+      <img src="/images/info-2.png" width="100%" alt="">
+    </div>
+
+    <div class="session">
+      <h2>nodejs环境部署相关(Linux)</h2>
+      <p>部署前需要配置node环境（6.x.x），使用pm2进程管理器和nginx反向代理服务器</p>
+      <p>安装node成功后-1： # node -v ， 能够正常显示版本</p>
+      <p>安装node成功后-2： # npm -v， 能够正常显示版本</p>
+      <p>安装pm2成功后: # pm2 -v ，能够正常显示版本</p>
+      <p>安装nginx成功后-------------</p>
+      <p># cd  /usr/local/nginx/sbin</p>
+      <p># ./nginx -t</p>
+      <p>结果显示：</p>
+      <p>nginx: the configuration file /usr/local/nginx/conf/nginx.conf syntax is ok</p>
+      <p>nginx: configuration file /usr/local/nginx/conf/nginx.conf test is successful</p>
+      <p>如果都成功后，表示环境部署成功</p>
+    </div>
+
+    <div class="session">
+      <h2>服务器启动node</h2>
+      <p>1、pm2 启动项目</p>
+      <p>2、nginx 配置好代理，启动即可</p>
+    </div>
+
+  </div>
+
+  <%include footer.ejs%>
+  </body>
+</html>

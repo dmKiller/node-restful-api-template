@@ -1,0 +1,27 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.index-wrap{
+  background: #3e3d4a;
+  position: absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  display: flex;
+  align-items: center;
+  -webkit-align-items: center;
+}
+.index-wrap .index-wrap-content{
+  width: 1200px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+}
+.index-wrap .index-wrap-content h1{
+
+}
+
+a {
+  color: #00B7FF!important;
+}
